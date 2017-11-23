@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header_ex from './header.1' 
 import Content from './content' 
+import Contacts from './Contacts' 
 
 class App extends Component {
   sayHey(){
@@ -30,11 +31,18 @@ class App extends Component {
         <button onClick={this.sayHey}>Click Me</button>
         <Header_ex/> 
         <Content/>
+        <Contacts/>
       </div>
     );
     /*234*/
   }
 }
+
+// App.defaultProps = {
+//   //headerTitle: 'Default header',
+//   contentTitle: '123123'//,
+//   //contentBody: undefined
+// };
 
 // class Header extends React.Component {
 //   render(){
